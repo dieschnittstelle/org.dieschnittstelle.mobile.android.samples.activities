@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.dieschnittstelle.mobile.android.activities"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.dieschnittstelle.mobile.android.activities.Anna"
+            android:label="@string/caller_name" >
+
+            <!-- intent filter für Aufruf beim Start der app -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.dieschnittstelle.mobile.android.activities.Beate"
+            android:label="@string/callee_name" >
+
+            <!-- intent filter für Aufruf mit Aktionsbezeichner -->
+            <intent-filter>
+                <action android:name="org.dieschnittstelle.SHOW_INPUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
