@@ -6,7 +6,7 @@ android {
     defaultConfig {
         applicationId "org.dieschnittstelle.mobile.android.activities"
         minSdkVersion 11
-        targetSdkVersion 27
+        targetSdkVersion 19
     }
 
     buildTypes {
