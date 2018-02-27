@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 17
+    compileSdkVersion 27
 
     defaultConfig {
         applicationId "org.dieschnittstelle.mobile.android.activities"
         minSdkVersion 11
-        targetSdkVersion 16
+        targetSdkVersion 27
     }
 
     buildTypes {
