@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/org.dieschnittstelle.mobile.android.samples.activities.iml" filepath="$PROJECT_DIR$/org.dieschnittstelle.mobile.android.samples.activities.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.activities.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.activities.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.activities.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.activities.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.activities.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.activities.app.main.iml" />
